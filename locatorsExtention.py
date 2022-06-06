@@ -12,6 +12,5 @@ driver.get("https://login.salesforce.com/?locale=eu")
 # driver.find_element_by_css_selector("input.username")
 
 driver.find_element_by_link_text("Forgot Your Password?").click()
-
-
 driver.find_element_by_xpath("//div[@id='usernamegroup']/label")
+
